@@ -94,8 +94,8 @@ def find_labels(jia_domain,filter_id,argv_list):
     fw.close()
 
 if __name__ == "__main__":
-    jia_domain="https://idarttest.mot.com/"
-    filter_id=136250 ###Please change to the real value.##
+    jia_domain="https://idart.mot.com/"
+    filter_id=167081 ###Please change to the real value.##
     argv_list = sys.argv[1:]
     if len(argv_list)==0:
         argv_list=['top']
