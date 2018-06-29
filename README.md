@@ -1,6 +1,6 @@
 # A script for find the labels with specific keywords from JIRA
 ## Requirement:
-### Pyton 3.x
+### Python 3.x
 https://www.python.org/downloads/
 
 ## Usage:
