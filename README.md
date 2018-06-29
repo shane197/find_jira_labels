@@ -1,4 +1,4 @@
-# A script for find the labels with specific keywords from JIRA
+# A script to find the labels with specific keywords from JIRA
 ## Requirement:
 ### Python 3.x
 https://www.python.org/downloads/
@@ -17,8 +17,8 @@ e.g. The filter_id of the example on 2# is 136250.
 
 ### 4. Run the script with the keywords you would find as arguments
 
-labels.py \<string1\> \[\<string2\>,...\]
+find_labels.py \<string1\> \[\<string2\>,...\]
 
-e.g. "labels.py top block" will find all of the labels including "top" or "block".
+e.g. "find_labels.py top block" will find all of the labels including "top" or "block".
 
 ### 5. The result will be stored in the file named "labels.txt" and "labels_list.txt" with different format.
